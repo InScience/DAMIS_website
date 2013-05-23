@@ -1,0 +1,71 @@
+/* ---- Body ---- */
+.content {
+    margin: 0 auto;
+    max-width: 760px;
+}
+
+/* ---- Navigation bar ---- */
+.navbar-align {
+    padding-top: 30px;
+    padding-right: 20px;
+}
+
+
+.logo {
+    padding-top: 20px;
+    font-family: "Garamond";
+    text-align: center;
+    font-size: 14px;
+    color: #444444;
+}
+
+.navbar a:hover, .navbar a:focus {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.125) inset;
+}
+
+/* ---- About content ---- */
+.about {
+    text-align: center;
+    font-family: "Courier";
+    font-size: 18px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.about pre {
+    display: inline;
+}
+
+.moto {
+    line-height: 1.5;
+}
+
+/* ---- News content ---- */
+.news {
+    max-width: 600px;
+    margin: auto;
+}
+
+.todo {
+    list-style-image: url(/media/img/todo.png);
+}
+
+.done {
+    list-style-image: url(/media/img/done.png);
+}
+
+.undone {
+    list-style-image: url(/media/img/undone.png);
+}
+
+/* ---- Footer ---- */
+.footer {
+    max-width: 600px;
+    margin: auto;
+    margin-top: -20px;
+}
+
+.attribution {
+    text-align: center;
+}
